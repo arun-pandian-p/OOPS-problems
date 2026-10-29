@@ -8,6 +8,7 @@ class number_Guess{
         int target=rand.nextInt(10)+1;
         int guesscount=0;
         int playerguess=0;
+        //----------------end generated number----------------------
         System.out.println("--- Welcome to the Number Guessing Game! ---");
         System.out.println("I am thinking of a number between 1 and 100.");
         while(playerguess !=target)
